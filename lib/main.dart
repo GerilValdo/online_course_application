@@ -13,6 +13,19 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
+      theme: ThemeData(
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.purple[400],
+          toolbarHeight: 180,
+          centerTitle: true,
+          foregroundColor: Colors.white,
+          titleTextStyle: TextStyle(
+            fontSize: 35,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 6,
+          ),
+        ),
+      ),
     );
   }
 }
