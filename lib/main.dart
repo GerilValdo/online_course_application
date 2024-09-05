@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       theme: ThemeData(
         appBarTheme: AppBarTheme(
-          backgroundColor: Colors.purple[400],
+          backgroundColor: Colors.lightGreen[400],
           toolbarHeight: 180,
           centerTitle: true,
           foregroundColor: Colors.white,
