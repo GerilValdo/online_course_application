@@ -1,5 +1,7 @@
 # online_course_application
 
+![home page online course](assets/gif/home_page_online_course.gif)
+
 A new Flutter project.
 
 ## Getting Started
