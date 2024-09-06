@@ -1,6 +1,6 @@
 # online_course_application
 
-<img src ="assets/gif/home_page_online_course.gif" height = "200" alt = "home page online course"/>
+<img src ="assets/gif/home_page_online_course.gif" height = "350" alt = "home page online course"/>
 
 A new Flutter project.
 
