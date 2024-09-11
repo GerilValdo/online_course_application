@@ -1,5 +1,7 @@
 # online_course_application
 
+<img src ="assets/gif/home_page_online_course.gif" height = "350" alt = "home page online course"/>
+
 A new Flutter project.
 
 ## Getting Started
