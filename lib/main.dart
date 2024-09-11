@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import './screen/home_page.dart';
+
+import './screen/start_page.dart';
+import './screen/register_page.dart';
+import './screen/log_in_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: StartPage(),
       theme: ThemeData(
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.lightGreen[400],
@@ -20,12 +23,16 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           foregroundColor: Colors.white,
           titleTextStyle: TextStyle(
-            fontSize: 35,
+            fontSize: 45,
             fontWeight: FontWeight.bold,
-            letterSpacing: 6,
+            // letterSpacing: 6,
           ),
         ),
       ),
+      routes: {
+        RegisterPage.routeName: (context) => const RegisterPage(),
+        LogInPage.routeName: (context) => const LogInPage(),
+      },
     );
   }
 }
